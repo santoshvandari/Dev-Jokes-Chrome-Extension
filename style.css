@@ -21,14 +21,13 @@ body main {
 }
 body main #error {
   display: none;
-  color: red;
+  color: #ff0000;
   padding: 20px 0px;
 }
 body main .name {
   display: none;
 }
 body main .name label {
-  font-size: 20px;
   padding: 5px 0px;
   font-weight: bold;
   color: #00ffcc;
@@ -37,7 +36,6 @@ body main .name label {
 body main .name input {
   width: 250px;
   height: 40px;
-  font-size: 20px;
   outline: none;
   border: 1px solid #e74c3c;
   border-radius: 5px;
@@ -47,13 +45,13 @@ body main .name input {
 body main .name button {
   margin: 10px 0;
   cursor: pointer;
-  background: #3498db;
+  background: #3198db;
   color: #fff;
   border-radius: 5px;
   transition: all ease-in-out 0.2s;
   font-size: 20px;
   padding: 8px 25px;
-  border: 2px solid #3498db;
+  border: 2px soldi #3198db;
 }
 body main .name button:hover {
   background: #fff;
@@ -91,7 +89,7 @@ body main .wrapper .edit {
 body main .wrapper .edit #edit {
   margin: 10px 0;
   cursor: pointer;
-  background: #3498db;
+  background: #3198db;
   color: #fff;
   border-radius: 5px;
   transition: all ease-in-out 0.2s;
@@ -117,5 +115,5 @@ body main footer {
 }
 body main footer a {
   text-decoration: none;
-  color: aqua;
+  color: #00ffff;
 }/*# sourceMappingURL=style.css.map */
